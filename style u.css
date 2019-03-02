@@ -1,0 +1,228 @@
+body{
+	font-family: Arial,sans-serif;	 
+	padding: 0;
+	margin: 0;
+}	    
+.clearfix:after{
+    content: "";
+    display:table;
+    width: 100%;
+    color: both; 
+
+
+}	 
+
+header{
+     margin: 0;
+	 height:100%;
+	 width: 100%;
+   	background-image: url(./images/8.jpg );
+
+}	 
+ 
+.container{        
+	  
+	  border:1px solid #777777;
+	  border-radius:10px;
+	  height :525px;
+	  width:995px;	   
+}	  	   
+	  
+ .logo{
+ 	margin-top:2px;
+ 	float: left;
+ }
+
+
+nav{
+	float: right;
+    margin-top:50px; 
+     margin-right: 41px; 
+
+}
+
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+      float:left; 
+      display:block; 
+      margin-left: 41px; 
+}
+
+.menu a{
+     color: #ffffff;
+     text-decoration:none; 
+     text-transform:uppercase;
+     font-size: 14px;
+
+
+}
+.titles_first{
+	font-size:40px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+h1{
+	font-size:75px;
+    color:#ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+.button{
+     background:#fed136;
+     color: #484543;
+     border-radius: 3px;
+     display: block;
+      width: 240px;
+      padding: 20px;
+      margin: 0 auto;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top:15px;
+
+}
+
+
+
+
+     /*СЛАЙДЕР*/
+
+
+#gallery {
+	    
+        width:600px;
+        height:360px;
+        margin: 0 auto;
+        text-align: center;
+
+}
+
+#gallery .photos {
+	background: #777777;
+	   position:relative;
+	   height: 360px;
+}
+.buttons{
+
+	margin: 5px;
+	padding: 5px;
+	margin: 0 auto;
+        text-align: center;
+}
+
+#gallery .photos img {
+	    height: 360px;
+	   position: absolute;
+	   width: 100%;
+	   left: 0;
+	   opacity: 0;
+       transition: opacity 1s;
+
+ }      
+
+
+#gallery .photos img.showed{
+	opacity: 1;
+}
+
+div *{
+	border: 1px solid red;
+}
+.titles{
+      padding-top:50px; 
+
+}
+
+.titles h2{
+     font-size:40px;
+     font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+     margin: 0;
+
+
+}
+.titles p{
+        font-size:14px;
+        color: #777777;
+     font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+      margin-top: 5px;
+}
+
+.servises{
+      margin-top: 10px;
+
+}
+
+.servises_item{
+	width:220px;
+	height:300px;
+	 padding-top:20px;
+	 margin-top: 10px;
+	 margin-right:52px;
+	 margin-left:52px;
+	  text-align: center; 
+	  float: left;
+}
+.servises_item h3{
+	font-size:18px;
+     font-weight: bold;        
+    text-transform: uppercase;
+     margin: 0;
+     margin-top: 10px;
+}
+
+.servises_item p{
+	font-size:12px;
+     font-weight: bold;    
+    text-transform: uppercase;
+     margin: 0;
+}
+
+.servises_item:first-child {
+        
+       margin-right:60px;
+}     
+
+
+.servises_item:last-child {
+        float:right; 
+}
+
+.calc{
+     background-color:#aaaaaa;
+     width: 240px;
+     height: 380px;
+     margin-left: 30px;
+}
+
+
+#one{
+     background-color: blue;
+     width: 240px;
+     height:240px;
+     margin-left: 30px;
+
+
+}
+
+
+.gradient{
+       height: 400px;
+       background-image: linear-gradient(180deg,#ff0020 ,#00ff70) ;
+  
+}
